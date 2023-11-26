@@ -1,0 +1,58 @@
+a{text-decoration:none}
+.showDetailPlant {
+    display: flex;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+.detailPlantmain {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+  }
+  
+  .photoPlant {
+    width: 90px;
+    object-fit: cover;
+    height: 120px;
+    border-radius: 12px;
+    margin-left: 40px;
+  }
+
+  #modelPlant {
+    color: #393E46;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Verdana;
+  }
+    
+  
+  #titlePlant {
+    color: #393E46;
+    font-family: Verdana;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 5px;
+  } 
+
+  #detailPlant {
+    color: #393E46;
+    font-family: K2D;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 16px;
+    text-align: justify;
+
+  }
+  #BackButton {
+    margin-left: 35px;
+    background: none;
+    margin-top: 25px;
+    border: none;
+    color:  rgb(119, 144, 234);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+

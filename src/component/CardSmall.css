@@ -1,0 +1,40 @@
+.card {
+    display: flex;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+.card:hover{
+    transform: translateY(-0.5rem);
+    box-shadow: 0.5rem 0.75rem 1.5rem 0.75rem rgb(69, 69, 71);
+  }
+
+  .photo {
+    width: 90px;
+    object-fit: cover;
+    height: 120px;
+    border-radius: 12px;
+  }
+  
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  #title {
+    color: b#393E46;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Verdana;
+  }
+  
+  #desc {
+    color: #393E46;
+    font-family: Verdana;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
