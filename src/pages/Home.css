@@ -2,6 +2,19 @@ p {
     padding: 0;
     margin: 0;
   }
+  #search-bar {
+    margin-bottom: 20px;
+  }
+  
+  #search-bar input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid rgb(96, 170, 147)b9b;
+    color: #393E46;
+    border-radius: 5px;
+    
+  }
 
   #home {
     padding: 20px 0 20px 0;
